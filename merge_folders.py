@@ -59,11 +59,13 @@ def merge_folders_to_new_directory(folder1, folder2, destination_folder):
 
 # Kullanım
 if __name__ == "__main__":
-    folder1 = r"C:\Users\emrehan.gorgec\Desktop\Projects\computervision\scripts\sepetli_vinc_deneme"
-    folder2 = r"C:\Users\emrehan.gorgec\Desktop\Projects\computervision\scripts\bucket_truck_deneme"
-    destination_folder = (
-        r"C:\Users\emrehan.gorgec\Desktop\Projects\computervision\scripts\merged_files"
+    folder1 = (
+        r"C:\Users\emrehan.gorgec\Desktop\Projects\computervision\data\sepetli_vinc"
     )
+    folder2 = (
+        r"C:\Users\emrehan.gorgec\Desktop\Projects\computervision\data\bucket_truck"
+    )
+    destination_folder = r"C:\Users\emrehan.gorgec\Desktop\Projects\computervision\data\merged_files_deneme"
 
     # Birinci ve ikinci klasörü yeni bir klasörde birleştir
     merge_folders_to_new_directory(folder1, folder2, destination_folder)
